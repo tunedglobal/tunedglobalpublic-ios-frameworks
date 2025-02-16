@@ -1,0 +1,13 @@
+framework module SocialRadio {
+  umbrella header "SocialRadio-umbrella.h"
+  header "radio-sdk/RadioSDKObjC.h"
+  header "automix-sdk/AutomixSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SocialRadio.Swift {
+  header "SocialRadio-Swift.h"
+  requires objc
+}
