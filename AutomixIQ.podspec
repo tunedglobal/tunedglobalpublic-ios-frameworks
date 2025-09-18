@@ -1,17 +1,17 @@
 Pod::Spec.new do |s|
   s.name             = 'AutomixIQ'
-  s.version          = '0.18.5'
+  s.version          = '0.18.6'
   s.summary          = 'Provide seamless transitions between tracks and beat matched seek experience within your music player application in iOS, iPad.'
   s.description      = 'Provide seamless transitions between tracks and beat matched seek experience within your music player application in iOS, iPad.'
   s.homepage         = 'https://www.tunedglobal.com'
-  s.license          = { :type => 'MIT', :file => 'builds/AutomixIQ/0.18.5/AutomixIQ-LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'builds/AutomixIQ/0.18.6/AutomixIQ-LICENSE' }
   s.author           = { 'vic' => 'victor.garcia@tunedglobal.com' }
   s.source           = { :git => 'https://github.com/tunedglobal/tunedglobalpublic-ios-frameworks.git',
                          :tag => 'AutomixIQ/' + s.version.to_s,
                          :submodules => true }
 
   s.frameworks = 'Accelerate', 'AudioToolbox', 'Security', 'AVFoundation', 'Network', 'CoreData'
-  s.vendored_frameworks = "builds/AutomixIQ/0.18.5/AutomixIQ.xcframework"
+  s.vendored_frameworks = "builds/AutomixIQ/0.18.6/AutomixIQ.xcframework"
   s.platform = :ios
   s.swift_version    = '5.5'
   s.ios.deployment_target  = '13.0'
