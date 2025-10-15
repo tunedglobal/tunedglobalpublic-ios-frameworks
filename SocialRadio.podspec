@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'SocialRadio'
-  s.version          = '0.18.17'
+  s.version          = '0.18.18'
   s.summary          = 'This library contains the Pacemaker Radio Engine and exposes functions to use it.'
   s.description      = 'This library contains the Pacemaker Radio Engine and exposes functions to use it.'
   s.homepage         = 'https://www.tunedglobal.com'
-  s.license          = { :type => 'MIT', :file => 'builds/SocialRadio/0.18.17/SocialRadio-LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'builds/SocialRadio/0.18.18/SocialRadio-LICENSE' }
   s.author           = { 'vic' => 'victor.garcia@tunedglobal.com' }
   s.source           = { :git => 'https://github.com/tunedglobal/tunedglobalpublic-ios-frameworks.git',
                          :tag => 'SocialRadio/' + s.version.to_s,
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.dependency 'OpenSSL-Universal', '~>1.1.1900'
   s.dependency 'ZIPFoundation', '~> 0.9'
   s.frameworks = 'Accelerate', 'AudioToolbox', 'Security', 'AVFoundation', 'SafariServices', 'MessageUI', 'CryptoKit'
-  s.vendored_frameworks = "builds/SocialRadio/0.18.17/SocialRadio.xcframework"
+  s.vendored_frameworks = "builds/SocialRadio/0.18.18/SocialRadio.xcframework"
   s.platform = :ios
   s.swift_version    = '5.5'
   s.ios.deployment_target  = '13.0'
