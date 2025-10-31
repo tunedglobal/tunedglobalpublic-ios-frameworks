@@ -120,6 +120,192 @@
           },
           {
             "kind": "Function",
+            "name": "initialise",
+            "printedName": "initialise(config:tunedRestDelegate:automixIQStatusDelegate:musicCacheDelegate:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutomixIQConfig",
+                "printedName": "SocialRadio.AutomixIQConfig",
+                "usr": "c:@M@SocialRadio@objc(cs)AutomixIQConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TunedRestDelegate",
+                "printedName": "any SocialRadio.TunedRestDelegate",
+                "usr": "c:@M@SocialRadio@objc(pl)TunedRestDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any SocialRadio.AutomixIQStatusObserverDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutomixIQStatusObserverDelegate",
+                    "printedName": "any SocialRadio.AutomixIQStatusObserverDelegate",
+                    "usr": "c:@M@SocialRadio@objc(pl)AutomixIQStatusObserverDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any SocialRadio.AutomixIQMusicCacheDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutomixIQMusicCacheDelegate",
+                    "printedName": "any SocialRadio.AutomixIQMusicCacheDelegate",
+                    "usr": "c:@M@SocialRadio@objc(pl)AutomixIQMusicCacheDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(((any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "((any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SocialRadio@objc(cs)AutomixIQ(cm)initialiseWithConfig:tunedRestDelegate:automixIQStatusDelegate:musicCacheDelegate:completion:",
+            "mangledName": "$s11SocialRadio9AutomixIQC10initialise6config17tunedRestDelegate015automixIQStatusI0010musicCacheI010completionyAA0C8IQConfigC_AA05TunedhI0_pAA0ck8ObserverI0_pSgAA0c7IQMusicmI0_pSgys5Error_pSgcSgtFZ",
+            "moduleName": "SocialRadio",
+            "static": true,
+            "objc_name": "initialiseWithConfig:tunedRestDelegate:automixIQStatusDelegate:musicCacheDelegate:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialise",
+            "printedName": "initialise(config:automixIQStreamingDelegate:automixIQStatusDelegate:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutomixIQConfig",
+                "printedName": "SocialRadio.AutomixIQConfig",
+                "usr": "c:@M@SocialRadio@objc(cs)AutomixIQConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutomixIQStreamingDelegate",
+                "printedName": "any SocialRadio.AutomixIQStreamingDelegate",
+                "usr": "c:@M@SocialRadio@objc(pl)AutomixIQStreamingDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any SocialRadio.AutomixIQStatusObserverDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutomixIQStatusObserverDelegate",
+                    "printedName": "any SocialRadio.AutomixIQStatusObserverDelegate",
+                    "usr": "c:@M@SocialRadio@objc(pl)AutomixIQStatusObserverDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(((any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "((any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SocialRadio@objc(cs)AutomixIQ(cm)initialiseWithConfig:automixIQStreamingDelegate:automixIQStatusDelegate:completion:",
+            "mangledName": "$s11SocialRadio9AutomixIQC10initialise6config26automixIQStreamingDelegate0g8IQStatusI010completionyAA0C8IQConfigC_AA0chI0_pAA0cj8ObserverI0_pSgys5Error_pSgcSgtFZ",
+            "moduleName": "SocialRadio",
+            "static": true,
+            "objc_name": "initialiseWithConfig:automixIQStreamingDelegate:automixIQStatusDelegate:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "internetAvailable",
             "printedName": "internetAvailable()",
             "children": [
@@ -2970,6 +3156,75 @@
             "mangledName": "$s11SocialRadio9AutomixIQC17setMasterEQTreble2dB10completionySf_ys5Error_pSgcSgtF",
             "moduleName": "SocialRadio",
             "objc_name": "setMasterEQTrebleWithDB:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMasterEQBass",
+            "printedName": "getMasterEQBass()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SocialRadio@objc(cs)AutomixIQ(im)getMasterEQBass",
+            "mangledName": "$s11SocialRadio9AutomixIQC15getMasterEQBassSfyF",
+            "moduleName": "SocialRadio",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMasterEQMid",
+            "printedName": "getMasterEQMid()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SocialRadio@objc(cs)AutomixIQ(im)getMasterEQMid",
+            "mangledName": "$s11SocialRadio9AutomixIQC14getMasterEQMidSfyF",
+            "moduleName": "SocialRadio",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMasterEQTreble",
+            "printedName": "getMasterEQTreble()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SocialRadio@objc(cs)AutomixIQ(im)getMasterEQTreble",
+            "mangledName": "$s11SocialRadio9AutomixIQC17getMasterEQTrebleSfyF",
+            "moduleName": "SocialRadio",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -50204,56 +50459,56 @@
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/AutomixIQAudioEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 20349,
+      "offset": 19995,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/AutomixIQAudioEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 20394,
+      "offset": 20040,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/AutomixIQAudioEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 20409,
+      "offset": 20055,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/AutomixIQAudioEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 20863,
+      "offset": 20497,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/AutomixIQAudioEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 21296,
+      "offset": 20918,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/AutomixIQAudioEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 22407,
+      "offset": 22017,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/AutomixIQAudioEngine.swift",
       "kind": "StringLiteral",
-      "offset": 22731,
+      "offset": 22329,
       "length": 47,
       "value": "\"Error during sample rate conversion: \""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/AutomixIQAudioEngine.swift",
       "kind": "StringLiteral",
-      "offset": 22777,
+      "offset": 22375,
       "length": 2,
       "value": "\"\""
     },
@@ -51156,7 +51411,7 @@
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/AutomixNetworkMonitor.swift",
       "kind": "BooleanLiteral",
-      "offset": 250,
+      "offset": 256,
       "length": 5,
       "value": "false"
     },
@@ -52549,105 +52804,105 @@
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 42082,
+      "offset": 42017,
       "length": 38,
       "value": "\"api-services-connect.tunedglobal.com\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 42141,
+      "offset": 42076,
       "length": 38,
       "value": "\"api-metadata-connect.tunedglobal.com\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 42252,
+      "offset": 42187,
       "length": 8,
       "value": "\"tracks\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 42332,
+      "offset": 42267,
       "length": 7,
       "value": "\"users\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 42357,
+      "offset": 42292,
       "length": 7,
       "value": "\"plays\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 42388,
+      "offset": 42323,
       "length": 13,
       "value": "\"application\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 42482,
+      "offset": 42417,
       "length": 9,
       "value": "\"thumbor\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 42903,
+      "offset": 42838,
       "length": 8,
       "value": "\"stream\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 42927,
+      "offset": 42862,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 43451,
+      "offset": 43386,
       "length": 9,
       "value": "\"profile\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 43492,
+      "offset": 43427,
       "length": 8,
       "value": "\"device\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 43520,
+      "offset": 43455,
       "length": 9,
       "value": "\"details\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 43555,
+      "offset": 43490,
       "length": 14,
       "value": "\"devicestatus\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 44133,
+      "offset": 44068,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/automix-sdk\/TunedRest.swift",
       "kind": "StringLiteral",
-      "offset": 44159,
+      "offset": 44094,
       "length": 13,
       "value": "\"recommended\""
     },

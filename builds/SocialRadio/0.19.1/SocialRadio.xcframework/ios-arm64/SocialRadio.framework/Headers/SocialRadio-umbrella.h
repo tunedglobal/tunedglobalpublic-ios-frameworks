@@ -19,7 +19,7 @@
 #import "automix-sdk/CoreDataModels/_AutomixIQTransitionLog.h"
 #import "automix-sdk/CoreDataModels/AutomixIQTransitionLog.h"
 #import "automix-sdk/MDMCoreDataWrapper.h"
-#import "automix-sdk/AutomixIQPlayerEqualiser.h"
+#import "automix-sdk/Equaliser/AutomixIQPlayerEqualiser.h"
 
 FOUNDATION_EXPORT double SocialRadioVersionNumber;
 FOUNDATION_EXPORT const unsigned char SocialRadioVersionString[];

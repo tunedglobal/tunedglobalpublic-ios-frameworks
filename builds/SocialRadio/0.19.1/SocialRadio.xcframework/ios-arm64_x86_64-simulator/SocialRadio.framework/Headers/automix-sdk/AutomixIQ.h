@@ -128,11 +128,14 @@ typedef void (^CompletionWithErrorAndPlaybackState)(NSError* _Nullable error, Au
 -(void)setMasterEQBassDB:(float)db completion:(nullable CompletionWithError)completion;
 -(void)setMasterEQMidDB:(float)db completion:(nullable CompletionWithError)completion;
 -(void)setMasterEQTrebleDB:(float)db completion:(nullable CompletionWithError)completion;
+-(float)getMasterEQBass;
+-(float)getMasterEQMid;
+-(float)getMasterEQTreble;
 
--(void)stopEngine;
--(void)setRecordingAudioDataWithFrames:(UInt32)frames numberOfChannels:(int)numberOfChannels audioPCMBuffer:(nonnull AVAudioPCMBuffer*)audioPCMBuffer;
--(int)getAudioDataWithFrames:(UInt32)frames numberOfChannels:(int)numberOfChannels fadeState:(int)fadeState audioPCMBuffer:(nonnull AVAudioPCMBuffer*)audioPCMBuffer isRecording:(nonnull BOOL*)isRecording;
--(BOOL)isAudioDeviceActiveOrRecording:(nonnull BOOL*)recording;
++(void)stopEngine;
++(void)setRecordingAudioDataWithFrames:(UInt32)frames numberOfChannels:(int)numberOfChannels audioPCMBuffer:(nonnull AVAudioPCMBuffer*)audioPCMBuffer;
++(int)getAudioDataWithFrames:(UInt32)frames numberOfChannels:(int)numberOfChannels fadeState:(int)fadeState audioPCMBuffer:(nonnull AVAudioPCMBuffer*)audioPCMBuffer isRecording:(nonnull BOOL*)isRecording;
++(BOOL)isAudioDeviceActiveOrRecording:(nonnull BOOL*)recording;
 
 -(void)setWaveformPointsPerTrack:(int)waveformPointsPerTrack;
 -(nullable AutomixIQWaveformModel*)waveformDataForTrackWithIdentifier:(nonnull NSString*)identifier applyTransitions:(BOOL)applyTransitions;

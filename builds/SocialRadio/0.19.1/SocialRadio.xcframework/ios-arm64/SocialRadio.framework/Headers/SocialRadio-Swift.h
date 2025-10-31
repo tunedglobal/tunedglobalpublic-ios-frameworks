@@ -338,8 +338,11 @@ SWIFT_PROTOCOL("_TtP11SocialRadio22AuthenticationDelegate_")
 
 enum ErrorCode : NSInteger;
 @class NSError;
-@protocol AutomixIQMusicCacheDelegate;
+@class AutomixIQConfig;
+@protocol TunedRestDelegate;
 @protocol AutomixIQStatusObserverDelegate;
+@protocol AutomixIQMusicCacheDelegate;
+@protocol AutomixIQStreamingDelegate;
 @class TunedTrackModel;
 @class AutomixIQStatus;
 @class TunedAdModel;
@@ -356,6 +359,46 @@ SWIFT_CLASS("_TtC11SocialRadio9AutomixIQ")
 ///   </li>
 /// </ul>
 + (BOOL)initialised SWIFT_WARN_UNUSED_RESULT;
+/// Initialiser for AutomixIQ to work against a Tuned Global backend
+/// This method takes in delegates to update the UI and feed OAuth2 access tokens to the Tuned Global APIs, as well as the ISO2 country code the device runs from and the Tuned Global Store ID.
+/// \param config The AutomixIQ Configuration
+///
+/// \param tunedRestDelegate The delegate in charge of feeding and renewing Tuned Global OAuth2 access tokens. See TunedRestDelegate.
+///
+/// \param automixIQStatusDelegate The delegate in charge of updating any UI with status updates from AutomixIQ. See AutomixIQStatusObserverDelegate.
+///
+/// \param musicCacheDelegate The delegate in charge of saving and feeding in cached music to and from AutomixIQ
+///
+/// \param completion Code to be executed upon completing the asynchronous request.
+///
+/// \a completion parameters:
+/// <ul>
+/// <li>
+/// error: An error describing a problem that occurred, nil otherwise.
+/// </li>
+/// </ul>
+///
+///
++ (void)initialiseWithConfig:(AutomixIQConfig * _Nonnull)config tunedRestDelegate:(id <TunedRestDelegate> _Nonnull)tunedRestDelegate automixIQStatusDelegate:(id <AutomixIQStatusObserverDelegate> _Nullable)automixIQStatusDelegate musicCacheDelegate:(id <AutomixIQMusicCacheDelegate> _Nullable)musicCacheDelegate completion:(void (^ _Nullable)(NSError * _Nullable))completion;
+/// Initialiser for AutomixIQ to work against any custom set of APIs.
+/// This method takes in delegates to update the UI and feeds all data and metadata the AutomixIQ needs.
+/// \param config The AutomixIQ Configuration
+///
+/// \param automixIQStreamingDelegate The delegate in charge of feeding all data and metadata the AutomixIQ needs. See AutomixIQStreamingDelegate.
+///
+/// \param automixIQStatusDelegate The delegate in charge of updating any UI with status updates from AutomixIQ. See AutomixIQStatusObserverDelegate.
+///
+/// \param completion Code to be executed upon completing the asynchronous request.
+///
+/// \a completion parameters:
+/// <ul>
+/// <li>
+/// error: An error describing a problem that occurred, nil otherwise.
+/// </li>
+/// </ul>
+///
+///
++ (void)initialiseWithConfig:(AutomixIQConfig * _Nonnull)config automixIQStreamingDelegate:(id <AutomixIQStreamingDelegate> _Nonnull)automixIQStreamingDelegate automixIQStatusDelegate:(id <AutomixIQStatusObserverDelegate> _Nullable)automixIQStatusDelegate completion:(void (^ _Nullable)(NSError * _Nullable))completion;
 /// Returns whether AutomixIQ can see the internet
 ///
 /// returns:
@@ -921,7 +964,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AutomixIQ * 
 ///   </li>
 /// </ul>
 - (AutomixIQStatus * _Nullable)automixStatus SWIFT_WARN_UNUSED_RESULT;
-/// Sets master EQ Bass
+/// Sets master EQ Bass. Range is [-12.0, +12.0].
 /// \param dB The amount in decibels, -26 to 6
 ///
 /// \param completion Code to be executed upon completing the asynchronous request.
@@ -935,7 +978,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AutomixIQ * 
 ///
 ///
 - (void)setMasterEQBassWithDB:(float)dB completion:(void (^ _Nullable)(NSError * _Nullable))completion;
-/// Sets master EQ Mid
+/// Sets master EQ Mid. Range is [-12.0, +12.0].
 /// \param dB The amount in decibels, -26 to 6
 ///
 /// \param completion Code to be executed upon completing the asynchronous request.
@@ -949,7 +992,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AutomixIQ * 
 ///
 ///
 - (void)setMasterEQMidWithDB:(float)dB completion:(void (^ _Nullable)(NSError * _Nullable))completion;
-/// Sets master EQ Treble
+/// Sets master EQ Treble. Range is [-12.0, +12.0].
 /// \param dB The amount in decibels, -26 to 6
 ///
 /// \param completion Code to be executed upon completing the asynchronous request.
@@ -963,6 +1006,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AutomixIQ * 
 ///
 ///
 - (void)setMasterEQTrebleWithDB:(float)dB completion:(void (^ _Nullable)(NSError * _Nullable))completion;
+/// Gets  master EQ Bass. Range is [-12.0, +12.0].
+- (float)getMasterEQBass SWIFT_WARN_UNUSED_RESULT;
+/// Gets  master EQ Mid. Range is [-12.0, +12.0].
+- (float)getMasterEQMid SWIFT_WARN_UNUSED_RESULT;
+/// Gets  master EQ Treble. Range is [-12.0, +12.0].
+- (float)getMasterEQTreble SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -2320,7 +2369,6 @@ SWIFT_PROTOCOL("_TtP11SocialRadio23SocialLayerUserDelegate_")
 @end
 
 @class SocialRadioConfig;
-@protocol TunedRestDelegate;
 @protocol SocialRadioStatusObserverDelegate;
 @protocol SocialRadioUIDelegate;
 @protocol SocialRadioTrackMetadataDelegate;

@@ -26,6 +26,12 @@ import os
   @objc public static func errorDescription(code: SocialRadio.ErrorCode) -> Swift.String?
   #endif
   @objc public static func initialised() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func initialise(config: SocialRadio.AutomixIQConfig, tunedRestDelegate: any SocialRadio.TunedRestDelegate, automixIQStatusDelegate: (any SocialRadio.AutomixIQStatusObserverDelegate)?, musicCacheDelegate: (any SocialRadio.AutomixIQMusicCacheDelegate)? = nil, completion: ((_ error: (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func initialise(config: SocialRadio.AutomixIQConfig, automixIQStreamingDelegate: any SocialRadio.AutomixIQStreamingDelegate, automixIQStatusDelegate: (any SocialRadio.AutomixIQStatusObserverDelegate)?, completion: ((_ error: (any Swift.Error)?) -> Swift.Void)?)
+  #endif
   @objc public static func internetAvailable() -> Swift.Bool
   @objc public func terminate()
   @objc public static let instance: SocialRadio.AutomixIQ
@@ -156,6 +162,9 @@ import os
   #if compiler(>=5.3) && $NonescapableTypes
   @objc public func setMasterEQTreble(dB: Swift.Float, completion: ((_ error: (any Swift.Error)?) -> Swift.Void)? = nil)
   #endif
+  @objc public func getMasterEQBass() -> Swift.Float
+  @objc public func getMasterEQMid() -> Swift.Float
+  @objc public func getMasterEQTreble() -> Swift.Float
   @objc override dynamic public init()
   @objc deinit
 }

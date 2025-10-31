@@ -95,11 +95,12 @@ socialRadioTrackMetadataDelegate:(nonnull id<SocialRadioTrackMetadataDelegate>)s
 -(void)joinLiveBroadcastWithIdentifier:(nonnull NSString*)identifier
                             completion:(void (^_Nullable)(NSError* _Nullable error, UIViewController* _Nullable viewController))completion;
 
--(void)stopEngine;
--(void)setRecordingAudioDataWithFrames:(UInt32)frames numberOfChannels:(int)numberOfChannels audioPCMBuffer:(nonnull AVAudioPCMBuffer*)audioPCMBuffer;
--(int)getAudioDataWithFrames:(UInt32)frames numberOfChannels:(int)numberOfChannels fadeState:(int)fadeState audioPCMBuffer:(nonnull AVAudioPCMBuffer*)audioPCMBuffer isRecording:(nonnull BOOL*)isRecording;
--(BOOL)isAudioDeviceActiveOrRecording:(nonnull BOOL*)recording;
--(void)playWithCompletion:(void (^_Nullable)(NSError* _Nullable error))completion;
++(void)stopEngine;
++(void)setRecordingAudioDataWithFrames:(UInt32)frames numberOfChannels:(int)numberOfChannels audioPCMBuffer:(nonnull AVAudioPCMBuffer*)audioPCMBuffer;
++(int)getAudioDataWithFrames:(UInt32)frames numberOfChannels:(int)numberOfChannels fadeState:(int)fadeState audioPCMBuffer:(nonnull AVAudioPCMBuffer*)audioPCMBuffer isRecording:(nonnull BOOL*)isRecording;
++(BOOL)isAudioDeviceActiveOrRecording:(nonnull BOOL*)recording;
++(void)playWithCompletion:(void (^_Nullable)(NSError* _Nullable error))completion;
+
 -(void)addStatusObserverDelegate:(nonnull id<SocialRadioStatusObserverDelegate>)statusObserverDelegate;
 -(void)removeStatusObserverDelegate:(nonnull id<SocialRadioStatusObserverDelegate>)statusObserverDelegate;
 
