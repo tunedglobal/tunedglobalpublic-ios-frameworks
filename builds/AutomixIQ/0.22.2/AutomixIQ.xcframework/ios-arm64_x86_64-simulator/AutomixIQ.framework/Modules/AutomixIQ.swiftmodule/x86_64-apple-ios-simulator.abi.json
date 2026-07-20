@@ -27911,266 +27911,266 @@
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1070,
+      "offset": 1271,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1248,
+      "offset": 1449,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 3385,
+      "offset": 3586,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Dictionary",
-      "offset": 3424,
+      "offset": 3625,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3457,
+      "offset": 3658,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4014,
+      "offset": 4215,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 4054,
+      "offset": 4255,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Dictionary",
-      "offset": 4093,
+      "offset": 4294,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4126,
+      "offset": 4327,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 4713,
+      "offset": 4914,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Dictionary",
-      "offset": 4752,
+      "offset": 4953,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5339,
+      "offset": 5540,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 5379,
+      "offset": 5580,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Dictionary",
-      "offset": 5418,
+      "offset": 5619,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 6012,
+      "offset": 6213,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Dictionary",
-      "offset": 6051,
+      "offset": 6252,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 6644,
+      "offset": 6845,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Dictionary",
-      "offset": 6683,
+      "offset": 6884,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7266,
+      "offset": 7467,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 7306,
+      "offset": 7507,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Dictionary",
-      "offset": 7345,
+      "offset": 7546,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7940,
+      "offset": 8141,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 7980,
+      "offset": 8181,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Dictionary",
-      "offset": 8019,
+      "offset": 8220,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 8617,
+      "offset": 8818,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 9195,
+      "offset": 9396,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9851,
+      "offset": 10052,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 9922,
+      "offset": 10123,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14274,
+      "offset": 14475,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 14337,
+      "offset": 14538,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 17478,
+      "offset": 17679,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Dictionary",
-      "offset": 17517,
+      "offset": 17718,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 21597,
+      "offset": 21798,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 24084,
+      "offset": 24285,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24110,
+      "offset": 24311,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Array",
-      "offset": 26423,
+      "offset": 26624,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26449,
+      "offset": 26650,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pacemaker\/dev\/pm-privatespecs\/PMPrivateSpecs\/src\/pace\/int\/rest-api-helper\/RESTAPIRequestsManager.swift",
       "kind": "Dictionary",
-      "offset": 28746,
+      "offset": 28947,
       "length": 3,
       "value": "[]"
     },
